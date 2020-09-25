@@ -1,0 +1,6 @@
+n = int(input("Введите число n: "))
+s = str(n)
+s1 = s + s
+s2 = s + s + s
+d = n + int(s1) + int(s2)
+print("Результат равен:", d)
